@@ -50,4 +50,14 @@
         android:layout_toRightOf="@+id/btn_chage"
         android:layout_toEndOf="@+id/btn_chage" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:buttonStyle"
+        android:text="New Text"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/btn_selected"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>

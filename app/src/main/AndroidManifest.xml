@@ -18,7 +18,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".GridActivity" />
-        <activity android:name=".TextActivity"></activity>
+        <activity android:name=".TextActivity" />
+        <activity android:name=".ButtonActivity"></activity>
     </application>
 
 </manifest>
