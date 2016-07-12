@@ -20,7 +20,7 @@
             android:exported="true" />
         <activity
             android:name=".RelativeActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".GridActivity"
             android:exported="true" />
@@ -36,9 +36,11 @@
         <activity
             android:name=".RadioActivity"
             android:exported="true" />
-        <activity android:name=".EditActivity"
+        <activity
+            android:name=".EditActivity"
             android:exported="true"
-            android:windowSoftInputMode="stateVisible|adjustResize"></activity>
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity android:name=".ImageActivity"></activity>
     </application>
 
 </manifest>
