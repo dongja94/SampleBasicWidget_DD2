@@ -10,7 +10,7 @@
     tools:context="com.begentgroup.samplebasicwidget.EditActivity">
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/edit_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -19,22 +19,25 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:singleLine="true"
-        android:nextFocusDown="@+id/editText6">
+        android:nextFocusDown="@+id/edit_password"
+        android:hint="email"
+        android:inputType="textEmailAddress">
         <requestFocus />
     </EditText>
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/edit_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
-        android:layout_below="@+id/editText5"
+        android:layout_below="@+id/edit_email"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:imeOptions="actionSend"/>
+        android:imeOptions="actionSend"
+        android:hint="password" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
